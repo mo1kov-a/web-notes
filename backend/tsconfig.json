@@ -14,7 +14,8 @@
     "emitDecoratorMetadata": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@config": ["./src/infrastructure/config/config.ts"]
+      "@config": ["./src/infrastructure/config/config.ts"],
+      "@logger": ["./src/infrastructure/logger/logger.ts"]
     }
   },
   "exclude": ["node_modules"]
