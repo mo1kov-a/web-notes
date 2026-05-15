@@ -13,7 +13,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@config": ["./src/infrastructure/config/config.ts"]
     }
   },
   "exclude": ["node_modules"]
